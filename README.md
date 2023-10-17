@@ -355,7 +355,8 @@ Berikut ini adalah konfigurasi setiap node
             listen-on-v6 { any; };
     };
     ```
-
+-   Hasil
+    </br><img src="img/7p.png?raw=true" alt="Alt text" title="1a" width="600">
 ## 8. Untuk informasi yang lebih spesifik mengenai Ranjapan Baratayuda, buatlah subdomain melalui Werkudara dengan akses rjp.baratayuda.abimanyu.yyy.com dengan alias www.rjp.baratayuda.abimanyu.yyy.com yang mengarah ke Abimanyu.
 
 -   Melakukan konfigurasi Werkudara pada `/etc/bind/jarkom/baratayuda.abimanyu.a15.com`
@@ -377,8 +378,9 @@ Berikut ini adalah konfigurasi setiap node
     rjp             IN      A       192.176.4.2     ; IP Abimanyu
     www.rjp         IN      CNAME   baratayuda.abimanyu.a15.com.
     ```
-
-
+    
+-   Hasil
+    </br><img src="img/8p.png?raw=true" alt="Alt text" title="1a" width="600">
 ## 9. Arjuna merupakan suatu Load Balancer Nginx dengan tiga worker (yang juga menggunakan nginx sebagai webserver) yaitu Prabakusuma, Abimanyu, dan Wisanggeni. Lakukan deployment pada masing-masing worker.
 
 -   Membuat konfigurasi roundrobin pada Arjuna-LB
