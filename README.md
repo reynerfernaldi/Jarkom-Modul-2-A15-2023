@@ -246,7 +246,8 @@ Berikut ini adalah konfigurasi setiap node
     };
     ```
 
-    **KOK GABISA YA**
+-   Hasil ketika Yudhistira di `service bind9 stop`
+    </br><img src="img/6p.png?raw=true" alt="Alt text" title="1a" width="600">
 
 ## 7. Seperti yang kita tahu karena banyak sekali informasi yang harus diterima, buatlah subdomain khusus untuk perang yaitu baratayuda.abimanyu.yyy.com dengan alias www.baratayuda.abimanyu.yyy.com yang didelegasikan dari Yudhistira ke Werkudara dengan IP menuju ke Abimanyu dalam folder Baratayuda.
 -   Melakukan konfigurasi Yudhistira pada `/etc/bind/jarkom/abimanyu.a15.com`
@@ -933,3 +934,6 @@ Hasil
         #Include conf-available/serve-cgi-bin.conf
     </VirtualHost>
     ```
+-   Hasil `lynx parikesit.abimanyu.a15.com/public/images/abimanyu-student.jpg`
+    </br><img src="img/20ap.png?raw=true" alt="Alt text" title="1a" width="800">
+    </br><img src="img/20bp.png?raw=true" alt="Alt text" title="1a" width="800">
